@@ -1,0 +1,25 @@
+body{
+    background: #99ffff;
+    align-content: center;
+    
+}
+input[type="text"]{
+    width: 60%;
+    border-radius: 30px;
+   height: 30px;
+   margin: 30px;
+}
+input[type="text"]:focus{
+    width:80%;
+     border-radius: 30px;
+        height: 30px;
+        margin: 30px;
+}
+input[type="submit"]{
+    width: 90%;
+    color: burlywood;
+    background: darkorchid;
+    border-radius: 30px;
+      height: 30px;
+        margin: 30px;
+}

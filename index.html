@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/newcss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+            <h2 style="color:#cc00cc;align-content: center;text-align: center">Registration Form</h2>
+            <form action="submitt" method="post">
+                <label>UserName:</label>
+                <input type="text" name="username" />
+                <br/>
+                <label>Password</label>
+                <input type="text" name="password" />
+                <br/>
+                <!--Note:perform validation using @min(value=2,message="enter valid number") and @max()-->
+                <label>Age</label>
+
+                <input type="number" name="age"/>
+                <br/>
+                <label>Email ID:</label>
+                <input type="text" name="email" />
+                <br/>
+                <input type="submit" value="submit" />
+            </form>
+
+</body>
+</html>
